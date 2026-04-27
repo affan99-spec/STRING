@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char S[]="Welcome";
+    int i;
+    for(i=0; S[i]!='\0'; i++)
+    {
+    }
+    cout<<"The length of String is: "<<i;
+
+    return 0;
+}
