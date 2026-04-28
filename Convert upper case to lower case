@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i;
+    char S[15];
+    cin>>S;
+    for(i=0; S[i]!='\0'; i++)
+    {
+        S[i]=S[i]+32;
+    }
+    cout<<S;
+    
+
+    return 0;
+}
